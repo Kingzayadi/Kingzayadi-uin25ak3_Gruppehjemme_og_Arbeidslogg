@@ -7,7 +7,7 @@ Hva jeg brukte for denne oppgaven:
 - Sanity.io (som headless CMS)
 - Git og GitHub for versjonskontroll
 
-Applikasjonen viser en oversikt over gruppemedlemmer med profilkort, og hver person har sin egen profilside. All data hentes direkte fra Sanity.
+Applikasjonen viser en oversikt over meg som er medlem med profilkort og jeg har da min egen profilside. Alle data hentes fra sanity.
 
 Jeg startet med å sette opp prosjektet i React ved hjelp av Vite, og konfigurerte layouten og navigasjonen med React Router. Deretter opprettet jeg komponentene layout og header, og gjorde sånn at routing mellom forside og profilsidene fungerte.
 
