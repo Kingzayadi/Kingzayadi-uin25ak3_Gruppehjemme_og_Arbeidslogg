@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    color: #222;
+  }
+
+  .site-header {
+    background-color: #4B2E83; 
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  
+    nav {
+      display: flex;
+      gap: 1.5rem;
+  
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .hjem-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .kort-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  
+    > div {
+      max-width: 600px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .medlemkort {
+    width: 250px;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 1rem auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+    img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      object-position: top center; 
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  
+
+  .bilde-placeholder {
+    background-color: #ddd;
+    height: 150px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profil-side {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .profil-innhold {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .profilbilde-wrapper {
+    flex: 0 0 250px;
+    text-align: center;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+  }
+  
+  .profil-info {
+    flex: 1;
+  
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+  
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+  
+      li {
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+  
+  .log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+  }
+  
+  .log-table th, .log-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .log-table th {
+    background-color: #f0f0f0;
+  }
+  
